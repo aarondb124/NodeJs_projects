@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  height: 100vh;
+  background-image: linear-gradient(rgb(92, 100, 221), black);
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+
+.container {
+  max-width: 955px;
+  border: 2px solid black;
+  margin: auto;
+  height: 60vh;
+  overflow-y: auto;
+  margin-bottom: 23px;
+  border-radius: 10px;
+}
+
+.massage {
+  background-color: #313035;
+  color: white;
+  width: 24%;
+  padding: 10px;
+  margin: 17px 12px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+#send-container {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 985px;
+  width: 100%;
+}
+
+#messageInp {
+  width: 92%;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 34px;
+}
+
+.btn {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 34px;
+}
