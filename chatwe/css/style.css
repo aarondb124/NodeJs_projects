@@ -4,7 +4,7 @@ body {
   font-family: "Comic Neue", cursive;
   font-weight: 700;
   height: 100vh;
-  background-image: linear-gradient(rgb(92, 100, 221), black);
+  background-image: linear-gradient( white, black);
 }
 
 .logo {
