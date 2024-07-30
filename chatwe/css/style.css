@@ -4,7 +4,7 @@ body {
   font-family: "Comic Neue", cursive;
   font-weight: 700;
   height: 100vh;
-  background-image: linear-gradient( white, black);
+  background-image: linear-gradient(white, black);
 }
 
 .logo {
@@ -24,7 +24,7 @@ body {
   border-radius: 10px;
 }
 
-.massage {
+.message {
   background-color: #313035;
   color: white;
   width: 24%;
@@ -32,6 +32,17 @@ body {
   margin: 17px 12px;
   border: 2px solid black;
   border-radius: 10px;
+}
+
+.joining_alart {
+  float: right;
+  clear: both;
+}
+
+.center {
+  text-align: center;
+  width: 100%;
+  color: rgb(6, 89, 161);
 }
 
 .left {
