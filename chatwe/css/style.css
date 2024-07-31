@@ -43,6 +43,11 @@ body {
   text-align: center;
   width: 100%;
   color: rgb(6, 89, 161);
+  clear: both;
+  padding: 0%;
+  margin: 0%;
+  border: none;
+  background-color: white;
 }
 
 .left {
