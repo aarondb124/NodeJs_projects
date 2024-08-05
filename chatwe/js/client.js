@@ -5,6 +5,14 @@ const messageInput = document.getElementById("messageInp");
 const messageContainer = document.querySelector(".container");
 var audio = new Audio("chatsound.mp3");
 
+const ScrollDoown = () => {
+  document.documentElement.ScrollDoown = 1;
+};
+
+// window.addEventListener("srollDown", () => {
+//   alert("ScrollDoown");
+// });
+
 const append = (message, position) => {
   const messageElement = document.createElement("div");
   messageElement.innerText = message;
@@ -18,10 +26,14 @@ const append = (message, position) => {
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
+  ScrollDoown();
+  // var ChatDiv = document.querySelector(".container");
+  // var height = ChatDiv[0].scrollHeight;
   const message = messageInput.value;
   append(`You: ${message}`, "right");
   socket.emit("send", message);
   messageInput.value = "";
+  // ChatDiv.scrollTop(height);
 });
 
 const name = prompt("Please Enter your name to join");

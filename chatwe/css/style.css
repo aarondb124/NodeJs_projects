@@ -22,6 +22,8 @@ body {
   overflow-y: auto;
   margin-bottom: 23px;
   border-radius: 10px;
+  scroll-behavior: auto;
+  position: relative;
 }
 
 .message {
